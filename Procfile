@@ -1,1 +1,1 @@
-web: gunicorn --pythonpath websever.wsgi
+web: gunicorn --pythonpath websever websever.wsgi
