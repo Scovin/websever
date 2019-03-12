@@ -5,6 +5,7 @@ from rest_framework.response import Response
 from rest_framework import status
 from .serializers import FileSerializer
 from .yolov3 import GetImage
+from django.shortcuts import render
 import os
 Base_dir = '/Users/liyicong/websever'
 class FileView(APIView):
@@ -20,4 +21,9 @@ class FileView(APIView):
       return Response(data, status=status.HTTP_201_CREATED)
     else:
       return Response(file_serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+
+def hello_view(request):
+  return render(request, 'hello.html', {
+      'data': "Hello Django ",
+    })
 
