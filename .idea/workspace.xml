@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46a23c45-feb3-4693-be84-2f3c1e67eb70" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/websever/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/websever/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/websever/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/websever/wsgi.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,11 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/websever/wsgi.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="15" column="49" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
+            <state relative-caret-position="540">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
               <folding>
                 <element signature="e#224#233#0" expanded="true" />
               </folding>
@@ -83,11 +84,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/websever/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="730">
-              <caret line="69" column="1" lean-forward="true" selection-start-line="69" selection-start-column="1" selection-end-line="69" selection-end-column="1" />
+            <state relative-caret-position="433">
+              <caret line="102" column="37" lean-forward="true" selection-start-line="102" selection-start-column="37" selection-end-line="102" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -131,10 +132,10 @@
         <option value="$PROJECT_DIR$/template/hello.html" />
         <option value="$PROJECT_DIR$/websever/urls.py" />
         <option value="$PROJECT_DIR$/templates/hello.html" />
-        <option value="$PROJECT_DIR$/websever/settings.py" />
         <option value="$PROJECT_DIR$/VR/views.py" />
         <option value="$PROJECT_DIR$/VR/templates/hello.html" />
         <option value="$PROJECT_DIR$/websever/wsgi.py" />
+        <option value="$PROJECT_DIR$/websever/settings.py" />
       </list>
     </option>
   </component>
@@ -156,62 +157,6 @@
             <path>
               <item name="websever" type="b2602c69:ProjectViewProjectNode" />
               <item name="websever" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="websever" type="b2602c69:ProjectViewProjectNode" />
-              <item name="websever" type="462c0819:PsiDirectoryNode" />
-              <item name="media" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="websever" type="b2602c69:ProjectViewProjectNode" />
-              <item name="websever" type="462c0819:PsiDirectoryNode" />
-              <item name="media" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="websever" type="b2602c69:ProjectViewProjectNode" />
-              <item name="websever" type="462c0819:PsiDirectoryNode" />
-              <item name="media" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="websever" type="b2602c69:ProjectViewProjectNode" />
-              <item name="websever" type="462c0819:PsiDirectoryNode" />
-              <item name="media" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="2019" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="websever" type="b2602c69:ProjectViewProjectNode" />
-              <item name="websever" type="462c0819:PsiDirectoryNode" />
-              <item name="media" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="2019" type="462c0819:PsiDirectoryNode" />
-              <item name="03" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="websever" type="b2602c69:ProjectViewProjectNode" />
-              <item name="websever" type="462c0819:PsiDirectoryNode" />
-              <item name="media" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="2019" type="462c0819:PsiDirectoryNode" />
-              <item name="03" type="462c0819:PsiDirectoryNode" />
-              <item name="11" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="websever" type="b2602c69:ProjectViewProjectNode" />
-              <item name="websever" type="462c0819:PsiDirectoryNode" />
-              <item name="VR" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="websever" type="b2602c69:ProjectViewProjectNode" />
-              <item name="websever" type="462c0819:PsiDirectoryNode" />
-              <item name="VR" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="websever" type="b2602c69:ProjectViewProjectNode" />
@@ -432,13 +377,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/websever/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="730">
-          <caret line="69" column="1" lean-forward="true" selection-start-line="69" selection-start-column="1" selection-end-line="69" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/websever/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -482,11 +420,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/websever/wsgi.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="15" column="49" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
+        <state relative-caret-position="540">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
           <folding>
             <element signature="e#224#233#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/websever/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="102" column="37" lean-forward="true" selection-start-line="102" selection-start-column="37" selection-end-line="102" selection-end-column="37" />
         </state>
       </provider>
     </entry>
