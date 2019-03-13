@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'e5(%rn-n4#cdxn!9+=d+%wo=4#jwn*p83fthk9o45+5y2$dle9'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = []
 
@@ -111,12 +111,10 @@ AUTH_PASSWORD_VALIDATORS = [
 ]
 DATA_UPLOAD_MAX_NUMBER_FIELDS = 10240
 
-# Internationalization
-# https://docs.djangoproject.com/en/2.1/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'zh-hant'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Asia/Taipei'
 
 USE_I18N = True
 
