@@ -75,13 +75,22 @@ WSGI_APPLICATION = 'websever.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/2.1/ref/settings/#databases
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+#     }
+# }
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+    'default':{
+        'ENGINE':'django.db.backends.postgresql_psycopg2',
+        'NAME':'d8tc9bi8gj87qh',#数据库名字
+        'USER':'akpblshqhdombb',#登录用户名
+        'PASSWORD':'89670a001b3cf78451e3ebc5d7556126e857df99026974fcc964c5ba92603ccb',
+        'HOST':'ec2-75-101-133-29.compute-1.amazonaws.com',#数据库IP地址
+        'PORT':'5432',
     }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/2.1/ref/settings/#auth-password-validators
