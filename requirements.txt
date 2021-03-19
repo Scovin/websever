@@ -20,7 +20,7 @@ decorator==4.3.0
 dj-database-url==0.5.0
 dj-static==0.0.6
 Django==2.1.7
-djangorestframework==3.9.1
+djangorestframework==3.11.2
 et-xmlfile==1.0.1
 future==0.17.1
 gast==0.2.2
